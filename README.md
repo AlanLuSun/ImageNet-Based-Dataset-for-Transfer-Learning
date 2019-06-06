@@ -5,10 +5,10 @@
 
 ## 2. Features of this dataset
 - This dataset consists of 6 categories which can be divided into two domains for studying transfer learning, namely {cat, dog, car} and {tiger, wolf, truck}, and has 7,114 images in total. The number of images per category is shown as follows:  
-<img src="./pics/dataset-features.jpg" width="73%" height="73%">
+  <img src="./pics/dataset-features.jpg" width="73%" height="73%">
 - The image number per category averages 1185 and is with a minimum of 815 and a maximum of 1552.  
 - The image samples of each category are shown as below figure.  
- <img src="./pics/dataset.jpg" width="73%" height="73%">
+  <img src="./pics/dataset.jpg" width="73%" height="73%">
 
  ## 3. The generation method of this dataset  
 The images are all downloaded from each image node of [ImageNet](http://www.image-net.org/). The detailed information of each image node are listed below  
