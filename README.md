@@ -4,14 +4,15 @@
 - The authors hope and welcome all of the researchers and readers sharing this passion to participate in enriching this dataset. This ImageNet based dataset could be updated by pulling a request to merge the current version. 
 
 ## 2. Features of this dataset
-- This dataset consists of 6 categories which can be divided into two domains for studying transfer learning, namely {cat, dog, car} and {tiger, wolf, truck}, and has 7,114 images in total. The number of images per category is shown as follows:  
+- This dataset currently consists of 6 categories which can be divided into two domains for studying transfer learning, namely {cat, dog, car} and {tiger, wolf, truck}, and has 7,114 images in total. The number of images per category is shown as follows:  
   <img src="./pics/dataset-features.jpg" width="73%" height="73%">
 - The image number per category averages 1185 and is with a minimum of 815 and a maximum of 1552.  
 - The image samples of each category are shown as below figure.  
   <img src="./pics/dataset.jpg" width="73%" height="73%">
 
  ## 3. The generation method of this dataset  
-The images are all downloaded from each image node of [ImageNet](http://www.image-net.org/). The detailed information of each image node are listed below  
+The images are all downloaded from each image node of [ImageNet](http://www.image-net.org/). The detailed information of each image node are listed below
+
 |Category|Detailed Information|  
 |--------|--------------------|  
 |**Cat**|It refers to "kitty, kitty-cat, puss, pussy, pussycat", which is under the node of "domestic animal" in ImageNet. The image urls can be found in [here](http://image-net.org/api/text/imagenet.synset.geturls?wnid=n02122298).|  
