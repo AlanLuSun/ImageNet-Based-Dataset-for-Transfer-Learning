@@ -23,11 +23,12 @@ The images are all downloaded from corresponding image node of [ImageNet](http:/
 |**Truck**|["fire engine, fire truck"](http://www.image-net.org/synset?wnid=n03345487), [image urls](http://www.image-net.org/api/text/imagenet.synset.geturls?wnid=n03345487)|  
 
 ## 4. How to use
-We provide the interface in Pytorch to conveniently use the above dataset for developing your applications. Merely two steps for setup.
+We provide the interface in [Pytorch](https://pytorch.org/) to conveniently use the above dataset for developing your applications. Merely two steps for setup.
 - Firstly, modify the root path of ImageNet based dataset and the folder name of each caterogy in [generate.py](generate.py), and then run 
   ```
   python generate.py
   ```  
+  to generate the json files which specify the pairs of image path and the corresponding image label of ground truth.
 - Secondly, add the file [generic_dataset.py](generic_dataset.py) to your appication, and import the GenericDataset class to your code. The usage example can be found in [generic_dataset.py](generic_dataset.py).
  
 
